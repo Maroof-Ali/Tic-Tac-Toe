@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<script src="ticTacToe.js">
+</script>
+
+<div>
+	<h1> ~~~~~~~~~~ TIC TAC TOE ~~~~~~~~~~</h1>
+	<br>
+	<h3>Player <span id="currentPlayer">1</span> turn</h3>
+</div>
+
+<div>
+	<table style="width:150px">
+    	<tr>
+          <td id="1" class="brs bbs" onclick = tap("1") ></td>
+          
+          <td id="2" class="bbs" onclick = tap("2") ></td>
+          
+          <td id="3" class="bls bbs" onclick = tap("3")></td>
+  		</tr>
+  		
+        <tr>
+          <td id="4" class="brs" onclick = tap("4")></td>
+          
+          <td id="5" class="" onclick = tap("5")></td>
+          
+          <td id="6" class="bls" onclick = tap("6")></td>
+  		</tr>
+        
+        <tr>
+          <td id="7" class="brs bts" onclick = tap("7")></td>
+          
+          <td id="8" class="bts" onclick = tap("8")></td>
+          
+          <td id="9" class="bls bts" onclick = tap("9")></td>
+  		</tr>
+    </table>
+</div>
+
+<div>
+	<h1 id="successTitle"></h1>
+</div>
+
+</body>
+</html>
+
+
